@@ -1,0 +1,122 @@
+body, h1, h2, p {
+    margin: 0;
+}
+
+header {
+    color: #eee;
+    background-color: #333;
+    padding: 10px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
+}
+
+h1 {
+    text-align: right;
+    padding: 50px 10px; /* сверху-снизу, справа-слева */
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    /* Во всех элементах nav применить стили
+    к гиперссылкам внутри них*/
+
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    padding: 2px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    background-color: #000;
+    transition: transform 0.2s, border-color 1s;
+}
+
+a img {
+    width: 20px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.iconup:hover {
+    border-color: yellow;
+    transform: translateY(-3px);
+}
+
+.iconup:active {
+    transform: scale(1.1);
+}
+
+main {
+    padding: 50px 0 100px 0;
+    background-color: #eee;
+    color: #333;
+}
+
+article {
+    text-align: center;
+}
+
+.planet {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.planet p {
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+.planet img {
+    width: 200px;
+    height: 200px;
+    /* двигает изображение внутри его размеров */
+    object-fit: cover;
+}
+
+.planet:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 40px;;
+}
+.socicon {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.vk:hover {
+    background-color: #2b5297;
+}
+
+.yt:hover {
+    background-color: #c30000;
+}
+
+.tg:hover {
+    background-color: #0077ff;
+}
+
+.snpcht:hover {
+    background-color: #fdfd03;
+}
