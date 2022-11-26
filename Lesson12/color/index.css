@@ -1,0 +1,28 @@
+body {
+    background-color: #9C27B0;
+    transition: background-color 2s;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #009688;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #2196F3;
+    }
+}
+
+@media (min-width: 1366px) {
+    body {
+        background-color: #8BC34A;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        background-color: #FFC107;
+    }
+}
