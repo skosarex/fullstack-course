@@ -1,0 +1,13 @@
+header {
+    background-color: #EDEDF5;
+    text-align: center;
+}
+
+header img {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+}
