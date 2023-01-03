@@ -1,0 +1,14 @@
+div {
+    transition: 2s;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: rosybrown;
+    border: 5px solid saddlebrown;
+}
+
+.circle {
+    border-radius: 50%;
+}
